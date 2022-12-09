@@ -1,0 +1,18 @@
+>git remote add <website name> <url>
+
+Get push and pull url
+>git remote -v
+
+Search ssh keys github got to docs.github.com
+> git branch -M main
+> git push -u origin main
+> ssh-keygen -t ed25519 -C "email here"
+> eval "$(ssh-agent -s)"
+> ssh-add ~/.ssh/id_ed25519
+> clip < ~/.ssh/id_ed25519.pub
+  # Copies the contents of the id_ed25519.pub file to your clipboard
+or 
+> tail ~/.ssh/id_ed25519.pub
+
+Upload content
+> git push -u origin main
