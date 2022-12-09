@@ -14,5 +14,5 @@ Search ssh keys github got to docs.github.com
 or 
 > tail ~/.ssh/id_ed25519.pub
 
-Upload content
+get access to upload content
 > git push -u origin main
